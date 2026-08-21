@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p23_ConvertirTemperatura {
+public class p023_ConvertirTemperatura {
     public static void main(String[] args) {
 
         int op;
