@@ -5,7 +5,7 @@ public class p043_ConteoNumeros {
     public static void main(String[] args) {
         int n, c, s, cp, cn, cc;
         Scanner obj = new Scanner(System.in);
-        c = s = cn cp = = cc = 0;
+        c = s = cn = cp = cc = 0;
         System.out.print("\033[H\033[2J");
 
         System.out.println("Cuenta numeros: positivos, negativos, ceros, hasta introducir 999");
