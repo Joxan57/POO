@@ -49,3 +49,34 @@
 - p026_TipoAngulo
 - p027_AceptarEstudiante
 - p028_LeyDeNewton
+
+# Actividad 7
+
+-p029_Calculadora
+-p030_DiaSemana
+-p031_NumerosRomanos
+-p032_PagoEstacionamiento
+
+# Actividad 8
+
+-p033_NumerosConsecutivos
+-p034_NumeroMayor
+-p035_ContinentesMundo
+-p036_CompraPizza
+-p037_CalculoNotas
+-p038_AceptarEstudianteV2
+
+# Actividad 9
+
+p039_Numeros1a100
+p040_Numeros100a1
+p041_ProcesaCalificaciones
+p042_TablaMultiplicar
+p043_ConteoNumeros
+
+# Actividad 10
+# Actividad 11
+# Actividad 12
+# Actividad 13
+# Actividad 14
+# Actividad 15
