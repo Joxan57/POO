@@ -1,0 +1,778 @@
+%PDF-1.4
+%xE2xE3xCFxD3
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2682 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+(Bitácora del proyecto: Simulador Financiero) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(1. Datos generales) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Nombre del proyecto: Simulador Financiero  ) Tj
+0 -14 Td
+(Archivo: p080_SimuladorFinanciero.java  ) Tj
+0 -14 Td
+(Lenguaje utilizado: Java  ) Tj
+0 -14 Td
+(Fecha de inicio: 18 de septiembre de 2026  ) Tj
+0 -14 Td
+(Fecha de finalización de esta etapa: 19 de septiembre de 2026) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(2. Introducción) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(En este proyecto desarrollé un simulador financiero para la Cooperativa) Tj
+0 -14 Td
+(Universitaria "Crece con Nosotros". La idea principal fue crear un programa) Tj
+0 -14 Td
+(de consola que permitiera hacer cálculos sencillos relacionados con el ahorro,) Tj
+0 -14 Td
+(las inversiones a plazo fijo y el perfil de riesgo de una persona.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Para realizar el proyecto utilicé Java y fui construyendo el programa por) Tj
+0 -14 Td
+(etapas. Primero preparé la estructura de las funciones, después agregué las) Tj
+0 -14 Td
+(fórmulas financieras, posteriormente integré un menú y, al final, revisé el) Tj
+0 -14 Td
+(programa para corregir errores de lógica y mejorar la presentación de los) Tj
+0 -14 Td
+(resultados.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(También fui registrando los prompts utilizados y las decisiones tomadas para) Tj
+0 -14 Td
+(dejar constancia de cómo se desarrolló el programa con apoyo de inteligencia) Tj
+0 -14 Td
+(artificial.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(3. Objetivo del programa) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(El objetivo del programa es permitir que estudiantes y docentes puedan realizar) Tj
+0 -14 Td
+(proyecciones financieras básicas desde una terminal. El simulador ofrece tres) Tj
+0 -14 Td
+(funciones principales:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(1. Calcular cuánto dinero se puede acumular con aportaciones mensuales.) Tj
+0 -14 Td
+(2. Proyectar el crecimiento de una inversión a plazo fijo con interés compuesto.) Tj
+0 -14 Td
+(3. Obtener un perfil de riesgo usando la edad y el monto disponible.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(4. Desarrollo paso a paso) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Etapa 1: Creación de la estructura inicial) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Prompt utilizado:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(> requiero que me ayudes a crear un programa para un proyecto escolar, me) Tj
+0 -14 Td
+(> permitieron usar ia para la creacion del codigo soloq que tambien requiero) Tj
+0 -14 Td
+(> que documentes todo el proceso para al final crear un pdf, asi que ve) Tj
+0 -14 Td
+(> documentando cada prompt que te de hasta el final para hacerlo, vale?) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Mi primera decisión fue llevar una bitácora desde el principio para no perder) Tj
+0 -14 Td
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2843 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+(los requisitos ni los cambios realizados. De esta manera, la documentación) Tj
+0 -14 Td
+(podrá convertirse posteriormente en un PDF del proyecto.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(El planteamiento inicial fue el siguiente:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(> La Cooperativa Universitaria "Crece con Nosotros" requiere automatizar sus) Tj
+0 -14 Td
+(> proyecciones financieras básicas para que los estudiantes y docentes puedan) Tj
+0 -14 Td
+(> simular sus planes de ahorro y metas de inversión desde una terminal. El) Tj
+0 -14 Td
+(> sistema debe ser una aplicación de consola interactiva que permita al usuario) Tj
+0 -14 Td
+(> realizar cálculos precisos basándose en diferentes productos financieros.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Con base en esto, entendí que el programa debía funcionar desde la consola y) Tj
+0 -14 Td
+(que tendría varias opciones financieras.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Después solicité la estructura de tres funciones:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(> el sistema debe tener un menu principal para elegir varias opciones, estaria) Tj
+0 -14 Td
+(> bien con un switch case, dentro de esas opciones tienen que ir funciones para) Tj
+0 -14 Td
+(> cada opcion, previamente declaradas, y que se puedan llamar desde la opcion) Tj
+0 -14 Td
+(> del case, Crea los esqueletos de tres funciones estáticas: calcularAhorro,) Tj
+0 -14 Td
+(> calcularInteresCompuesto y obtenerPerfil. Incluye solo los comentarios) Tj
+0 -14 Td
+(> Javadoc de lo que debe hacer cada una y la estructura de parámetros. No) Tj
+0 -14 Td
+(> escribas el código interno todavía.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(En esta etapa solamente preparé los métodos y sus comentarios Javadoc. Todavía) Tj
+0 -14 Td
+(no agregué cálculos, porque primero quería tener clara la estructura del) Tj
+0 -14 Td
+(programa.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Las funciones iniciales fueron:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- calcularAhorro) Tj
+0 -14 Td
+(- calcularInteresCompuesto) Tj
+0 -14 Td
+(- obtenerPerfil) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Al principio los parámetros todavía eran provisionales, ya que se fueron) Tj
+0 -14 Td
+(ajustando conforme se definieron mejor los requisitos.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Etapa 2: Implementación del cálculo de ahorro) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Prompt utilizado:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(> genial, ahora impliementaremos la logica de cada funcion, para calcularAhorro,) Tj
+0 -14 Td
+(> debe calcular el monto final acumulado. Se requiere un ciclo for que actúe) Tj
+0 -14 Td
+(> como acumulador mes a mes, sumando la aportación y aplicando el interés) Tj
+0 -14 Td
+(> mensual correspondiente. Función requerida:) Tj
+0 -14 Td
+(> public static double calcularAhorro\(double aportacion, int meses,) Tj
+0 -14 Td
+(> double tasaAnual\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Para esta función utilicé un acumulador que comienza en cero. En cada vuelta) Tj
+0 -14 Td
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2121 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+(del ciclo for se suma la aportación mensual y después se aplica el interés) Tj
+0 -14 Td
+(correspondiente al saldo acumulado.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(La firma final de la función quedó así:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(java) Tj
+0 -14 Td
+(public static double calcularAhorro\() Tj
+0 -14 Td
+(        double aportacion,) Tj
+0 -14 Td
+(        int meses,) Tj
+0 -14 Td
+(        double tasaAnual\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(La tasa anual se maneja como decimal. Por ejemplo, 0.05 significa 5 % anual.) Tj
+0 -14 Td
+(La tasa mensual se obtiene dividiendo la tasa anual entre 12:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(java) Tj
+0 -14 Td
+(double tasaMensual = tasaAnual / 12;) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Etapa 3: Implementación del interés compuesto) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Prompt utilizado:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(> bien ahora para interes compuesto, la opcion de esta debe ser "Proyeccion de) Tj
+0 -14 Td
+(> inversion a plazo fijo" Utiliza la fórmula de interés compuesto) Tj
+0 -14 Td
+(> M = C x \(1 + r/100\)^t. Requisito: Uso obligatorio de Math.pow. Función) Tj
+0 -14 Td
+(> requerida: public static double calcularInteresCompuesto\(double capital,) Tj
+0 -14 Td
+(> double tasa, int anios\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(La función se utilizó para representar una proyección de inversión a plazo) Tj
+0 -14 Td
+(fijo. La firma quedó de la siguiente manera:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(java) Tj
+0 -14 Td
+(public static double calcularInteresCompuesto\() Tj
+0 -14 Td
+(        double capital,) Tj
+0 -14 Td
+(        double tasa,) Tj
+0 -14 Td
+(        int anios\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Durante la revisión final aclaré que las tasas se ingresarían como decimales.) Tj
+0 -14 Td
+(Por eso, la fórmula que utiliza el programa es:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(java) Tj
+0 -14 Td
+(capital * Math.pow\(1 + tasa, anios\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Se utilizó Math.pow porque era un requisito específico del ejercicio y porque) Tj
+0 -14 Td
+(permite elevar correctamente el factor de crecimiento al número de años.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2668 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+(Etapa 4: Clasificación del perfil de riesgo) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Prompt utilizado:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(> bien, ahora para obtenerPerfil, Determina el perfil de riesgo basándose en) Tj
+0 -14 Td
+(> la edad y el capital disponible mediante condiciones compuestas \(&&, ||\).) Tj
+0 -14 Td
+(> Perfiles: Conservador, Moderado, Agresivo, o No elegible \(si el monto es) Tj
+0 -14 Td
+(> insuficiente\). Función requerida:) Tj
+0 -14 Td
+(> public static String obtenerPerfil\(int edad, double monto\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(En este punto noté que no estaban definidos los límites exactos de cada) Tj
+0 -14 Td
+(perfil, así que solicité una aclaración antes de inventar reglas.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(La regla definitiva fue:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(> menor de 30 años y monto mayor a 10k es Agresivo; mayor de 50 años es) Tj
+0 -14 Td
+(> Conservador; el resto es Moderado. Incluye validaciones para que los números) Tj
+0 -14 Td
+(> sean positivos.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(La clasificación quedó así:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Edad menor de 30 años y monto mayor de 10,000: Agresivo.) Tj
+0 -14 Td
+(- Edad mayor de 50 años: Conservador.) Tj
+0 -14 Td
+(- Cualquier otro caso válido: Moderado.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(También agregué validaciones para que la edad y el monto fueran positivos.) Tj
+0 -14 Td
+(Aunque en el planteamiento inicial aparecía la posibilidad de un perfil "No) Tj
+0 -14 Td
+(elegible", no se especificó un monto mínimo exacto. Por eso no inventé un) Tj
+0 -14 Td
+(umbral adicional: cualquier monto positivo se considera válido.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Etapa 5: Integración del menú) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Prompt utilizado:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(> genial, ahora integraremos todo como un menu con switch case. Fase 3:) Tj
+0 -14 Td
+(> Integración del Menú y Manejo de Consola: Construcción del main con do-while) Tj
+0 -14 Td
+(> y switch-case. Ahora, crea el método main para mi programa) Tj
+0 -14 Td
+(> p080_SimuladorFinanciero. Debe usar un ciclo do-while y un switch-case para) Tj
+0 -14 Td
+(> mostrar un menú con 4 opciones. Asegúrate de manejar correctamente el Scanner) Tj
+0 -14 Td
+(> y limpiar el buffer si es necesario al leer strings después de números.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Agregué el método main con un ciclo do-while para que el menú se mostrara) Tj
+0 -14 Td
+(repetidamente hasta que el usuario eligiera la opción de salir.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(El menú final tiene estas opciones:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(1. Calcular ahorro mensual.) Tj
+0 -14 Td
+(2. Proyección de inversión a plazo fijo.) Tj
+0 -14 Td
+(3. Obtener perfil de riesgo.) Tj
+0 -14 Td
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 2317 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+(4. Salir.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Utilicé un switch-case para ejecutar la función correspondiente a cada) Tj
+0 -14 Td
+(opción. También utilicé un solo objeto Scanner y llamé a nextLine\(\) después) Tj
+0 -14 Td
+(de leer números para limpiar el salto de línea pendiente.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Para evitar que el programa se cierre ante una entrada incorrecta, agregué) Tj
+0 -14 Td
+(manejo de InputMismatchException. También capturé IllegalArgumentException) Tj
+0 -14 Td
+(para mostrar los errores de validación sin terminar la ejecución.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Etapa 6: Depuración y optimización) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Prompt utilizado:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(> genial, quedo todo listo, ahora quiero que me ayudes a depurar y optimizar) Tj
+0 -14 Td
+(> el programa entero, busca posibles errores de logica, asegura que las tasas de) Tj
+0 -14 Td
+(> interés se manejen como decimales \(ej. 5% como 0.05\) y optimiza el formato) Tj
+0 -14 Td
+(> de salida para que los montos de dinero muestren solo 2 decimales) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Durante esta revisión encontré una diferencia importante: las primeras) Tj
+0 -14 Td
+(versiones trataban la tasa como porcentaje entero, por ejemplo 5, pero el) Tj
+0 -14 Td
+(requisito final indicaba que debía manejarse como decimal, es decir, 0.05.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Corregí las dos funciones financieras:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(java) Tj
+0 -14 Td
+(// Para el ahorro mensual) Tj
+0 -14 Td
+(double tasaMensual = tasaAnual / 12;) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(// Para el interés compuesto) Tj
+0 -14 Td
+(capital * Math.pow\(1 + tasa, anios\);) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(También actualicé los mensajes del menú para indicar claramente:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(text) Tj
+0 -14 Td
+(Tasa anual decimal \(0.05 = 5 %\):) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Además, agregué validaciones para rechazar valores negativos, cero, NaN e) Tj
+0 -14 Td
+(infinito. Los resultados monetarios se muestran con dos decimales usando) Tj
+0 -14 Td
+(printf\("%.2f"\).) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(5. Validaciones incluidas) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(El programa verifica que:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- La aportación mensual sea mayor que cero.) Tj
+0 -14 Td
+(- La cantidad de meses sea positiva.) Tj
+0 -14 Td
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 1983 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+(- La tasa anual sea positiva y finita.) Tj
+0 -14 Td
+(- El capital inicial sea positivo y finito.) Tj
+0 -14 Td
+(- La cantidad de años sea positiva.) Tj
+0 -14 Td
+(- La edad sea mayor que cero.) Tj
+0 -14 Td
+(- El monto disponible sea positivo y finito.) Tj
+0 -14 Td
+(- La opción del menú se encuentre entre 1 y 4.) Tj
+0 -14 Td
+(- Las entradas del usuario sean numéricas.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Cuando se recibe un valor inválido, el programa muestra un mensaje de error y) Tj
+0 -14 Td
+(regresa al menú para que el usuario pueda intentarlo de nuevo.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(6. Pruebas realizadas) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Probé el menú completo con los siguientes datos:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Prueba de ahorro) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Aportación mensual: 100) Tj
+0 -14 Td
+(- Meses: 12) Tj
+0 -14 Td
+(- Tasa anual: 0.05) Tj
+0 -14 Td
+(- Resultado obtenido: 1233.00) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Prueba de inversión a plazo fijo) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Capital inicial: 1000) Tj
+0 -14 Td
+(- Tasa anual: 0.10) Tj
+0 -14 Td
+(- Años: 2) Tj
+0 -14 Td
+(- Resultado obtenido: 1210.00) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Prueba de perfil de riesgo) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Edad: 25) Tj
+0 -14 Td
+(- Monto disponible: 15000) Tj
+0 -14 Td
+(- Resultado obtenido: Agresivo) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(También probé la opción de salida y confirmé que el programa termina) Tj
+0 -14 Td
+(correctamente. Finalmente, compilé el archivo con javac y no se encontraron) Tj
+0 -14 Td
+(errores.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(7. Lo que aprendí) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Con este proyecto practiqué varios temas de Java:) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- Declaración y uso de métodos estáticos.) Tj
+0 -14 Td
+(- Uso de parámetros y valores de retorno.) Tj
+0 -14 Td
+(- Ciclos for y do-while.) Tj
+0 -14 Td
+(- Estructuras switch-case.) Tj
+0 -14 Td
+(- Uso de Scanner para leer datos desde la consola.) Tj
+0 -14 Td
+(- Manejo de excepciones con try-catch.) Tj
+0 -14 Td
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 17 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 2057 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+(- Conversión y uso correcto de tasas decimales.) Tj
+0 -14 Td
+(- Aplicación de la fórmula del interés compuesto.) Tj
+0 -14 Td
+(- Formateo de cantidades monetarias.) Tj
+0 -14 Td
+(- Validación de datos antes de realizar cálculos.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(También comprendí que es importante revisar las unidades de los datos. Una) Tj
+0 -14 Td
+(tasa escrita como 5 no representa lo mismo que una tasa escrita como 0.05,) Tj
+0 -14 Td
+(por lo que fue necesario dejar claro ese formato tanto en las fórmulas como en) Tj
+0 -14 Td
+(los mensajes mostrados al usuario.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(8. Estado final del proyecto) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(- [x] Crear la clase principal.) Tj
+0 -14 Td
+(- [x] Declarar las tres funciones estáticas.) Tj
+0 -14 Td
+(- [x] Documentar las funciones con Javadoc.) Tj
+0 -14 Td
+(- [x] Implementar el cálculo de ahorro mensual.) Tj
+0 -14 Td
+(- [x] Implementar el cálculo de interés compuesto con Math.pow.) Tj
+0 -14 Td
+(- [x] Implementar la clasificación de perfiles de riesgo.) Tj
+0 -14 Td
+(- [x] Agregar validaciones para los datos numéricos.) Tj
+0 -14 Td
+(- [x] Crear el menú con do-while y switch-case.) Tj
+0 -14 Td
+(- [x] Manejar correctamente el Scanner.) Tj
+0 -14 Td
+(- [x] Mostrar los montos con dos decimales.) Tj
+0 -14 Td
+(- [x] Probar las opciones principales del programa.) Tj
+0 -14 Td
+(- [ ] Convertir esta bitácora en el PDF final.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(9. Conclusión) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(El simulador cumple con las funciones solicitadas y puede utilizarse desde una) Tj
+0 -14 Td
+(terminal. El programa permite realizar cálculos básicos de ahorro e inversión,) Tj
+0 -14 Td
+(clasificar un perfil de riesgo y controlar errores comunes de entrada.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(El desarrollo se realizó paso a paso, revisando cada requisito antes de) Tj
+0 -14 Td
+(agregar la siguiente parte. La bitácora me permitió llevar un registro de las) Tj
+0 -14 Td
+(decisiones tomadas y de las correcciones realizadas durante la construcción) Tj
+0 -14 Td
+(del programa.) Tj
+0 -14 Td
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000023 00000 n 
+0000000072 00000 n 
+0000000165 00000 n 
+0000000292 00000 n 
+0000003026 00000 n 
+0000003153 00000 n 
+0000006048 00000 n 
+0000006175 00000 n 
+0000008348 00000 n 
+0000008476 00000 n 
+0000011197 00000 n 
+0000011326 00000 n 
+0000013696 00000 n 
+0000013825 00000 n 
+0000015861 00000 n 
+0000015990 00000 n 
+0000018100 00000 n 
+trailer
+<< /Size 18 /Root 1 0 R >>
+startxref
+18198
+%%EOF
