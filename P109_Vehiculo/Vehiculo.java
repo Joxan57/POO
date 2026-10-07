@@ -1,4 +1,4 @@
-package P109_Vehiculo;
+package p109_Vehiculo;
 
 public class Vehiculo {
     protected String Serie;
