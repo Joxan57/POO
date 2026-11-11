@@ -222,3 +222,11 @@
 ## Actividad 25 - Manejo de archivos - Parte 2
 - p140_Archivos5
 - p141_Archivos6
+
+## Actividad 26 - Manejo de archivos - Parte 3
+- p142_Archivos7
+
+## Práctica 15 - Manejo de archivos
+- p143_ArchivoMunicipios
+- p144_ArchivoMaterias
+- p145_ArchivoEstudiante
